@@ -9,18 +9,13 @@ public class Ejercicio10 {
         double c=Double.parseDouble(br.readLine());
         System.out.println("Escriba la temperatura deseada a convertir");
 
-        String temperatura="T";
-        temperatura=br.readLine();
+        String temperatura=br.readLine();
         switch(temperatura.toUpperCase()){
             case "F":
-                c=(1.8*c)+32;
-                System.out.println("La temperatura en Fahrenheit es: "+c+" F");break;
             case "f":
                 c=(1.8*c)+32;
                 System.out.println("La temperatura en Fahrenheit es: "+c+" F");break;
             case"K":
-                c=c+273.15;
-                System.out.println("La temperatura en Kelvin es: "+c+" K ");break;
             case"k":
                 c=c+273.15;
                 System.out.println("La temperatura en Kelvin es: "+c+" K ");break;
