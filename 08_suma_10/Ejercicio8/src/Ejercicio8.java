@@ -10,6 +10,7 @@ public class Ejercicio8 {
 
         for(int i=0;i<10;i++){
         int n=Integer.parseInt(br.readLine());
+            System.out.println("Escribe otro número");
         suma=suma+n;
     }
         System.out.println("La suma de todos los numeros es: "+suma);
