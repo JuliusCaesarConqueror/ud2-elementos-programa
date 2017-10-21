@@ -14,9 +14,11 @@ public class Ejercicio7 {
             if (a > 0) {
                 System.out.println("El valor absoluto de " + a + " es: " + a);
 
-            } else {
+            } else if (a<0){
                 System.out.println("El valor absoluto de " + a + " es: " + a * -1);
-            }
+
+           }
+
 
         } while (a != 0);
         System.out.println("Programa terminado. ");
