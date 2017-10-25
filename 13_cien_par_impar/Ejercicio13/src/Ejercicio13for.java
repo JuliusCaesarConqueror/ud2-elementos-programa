@@ -7,28 +7,22 @@ public class Ejercicio13for {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("¿Elija par o impar?");
         String tipo=br.readLine();
-
         int numero =1;
+        for (int i = 1; i <100 ; i++) {
         if(tipo.equalsIgnoreCase("PAR")){
-            for (int i = 1; i <100 ; i++) {
                 if(numero%2==0){
                     System.out.println(numero);
                 }
                 numero++;
             }
+       else if(tipo.equalsIgnoreCase("IMPAR")){
 
-        } else if(tipo.equalsIgnoreCase("IMPAR")){
-            for (int i = 1; i <100 ; i++) {
                 if(numero%2!=0){
                     System.out.println(numero);
                 }
                 numero++;
-
             }
         }
-
-
     }
-
 }
 
