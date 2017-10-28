@@ -7,10 +7,8 @@ public class Ejercicio18 {
         BufferedReader br = new BufferedReader (new InputStreamReader(System.in));
         System.out.println("Escribe un numero y te diremos si es primo o no ");
             int num=Integer.parseInt(br.readLine());
-            if (num%num!=0){
+            if (num%2!=0&&num%3!=0&&num%5!=0||num==2||num==3||num==5){
                 System.out.println("El número "+num+" si es primo.");
-
-
             } else {
                 System.out.println("El número "+num+" no es primo.");
             }
